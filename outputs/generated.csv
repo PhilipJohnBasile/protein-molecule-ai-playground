@@ -1,0 +1,6 @@
+seed_smiles,candidate_smiles,target_id,qed,logp,sa_score,predicted_pChEMBL
+COc1ccc2nc(Nc3ccc(NC(=O)CO)cc3)ncc2c1OC,COc1ccc(-c2ccc(OC)cc2)cc1,CHEMBL1824,0.7795,3.3708,2.1931,7.5175
+COc1ccc2nc(Nc3ccc(NC(=O)CO)cc3)ncc2c1OC,COc1ccc(Nc2ccc(OC)cc2)cc1,CHEMBL1824,0.8706,3.4474,2.1931,7.5165
+COc1ccc2nc(Nc3ccc(NC(=O)CO)cc3)ncc2c1OC,COc1ccc(NC(=O)CO)cc1,CHEMBL1824,0.7185,0.626,2.1931,7.4778
+COc1ccc2nc(Nc3ccc(NC(=O)CO)cc3)ncc2c1OC,COc1ccc(-c2ccc(NC(=O)CO)cc2)cc1,CHEMBL1824,0.8831,2.293,2.1931,7.4742
+COc1ccc2nc(Nc3ccc(NC(=O)CO)cc3)ncc2c1OC,COc1ccc(-c2c(OC)ccc3nc(OC)ncc23)cc1,CHEMBL1824,0.7389,3.3226,2.1931,7.4733

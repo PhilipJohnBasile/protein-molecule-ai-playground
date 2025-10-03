@@ -1,0 +1,22 @@
+{
+  "records": 18,
+  "targets": [
+    "CHEMBL1824",
+    "CHEMBL1827",
+    "CHEMBL1862",
+    "CHEMBL1865",
+    "CHEMBL1950",
+    "CHEMBL1957",
+    "CHEMBL203",
+    "CHEMBL2147",
+    "CHEMBL240",
+    "CHEMBL2971",
+    "CHEMBL3067",
+    "CHEMBL364"
+  ],
+  "target_seq_len_mean": 1000.1666666666666,
+  "pChEMBL_range": [
+    7.0,
+    8.7
+  ]
+}

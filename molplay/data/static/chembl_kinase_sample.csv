@@ -1,0 +1,21 @@
+chembl_id,smiles,target_id,target_pref_name,pchembl_value,standard_type,standard_relation,standard_value,standard_units,target_sequence_length
+CHEMBL941,CC1=CC=C(C=C1)NC(=O)C2=NC3=CC=CC=C3N2CCCCC,CHEMBL1862,Tyrosine-protein kinase ABL1,7.60,Ki,=,25.0,nM,1130
+CHEMBL833,COc1ccc2ncnc(Nc3ccc(OC)cc3)c2cc1OCCCN(CC)CC,CHEMBL1865,Epidermal growth factor receptor,8.10,IC50,=,7.9,nM,1210
+CHEMBL1128,COc1ccc(-c2ccc(NC(=O)Nc3ccc(cc3)OC)cc2)nc1,CHEMBL2971,Raf proto-oncogene serine/threonine-protein kinase B-raf,7.20,IC50,=,62.0,nM,766
+CHEMBL1427,COc1ccc2c(c1)nc(Nc3ccc(NC(=O)C)cc3)n2CCN(C)C,CHEMBL364,Receptor tyrosine-protein kinase erbB-2,7.90,IC50,=,12.6,nM,1255
+CHEMBL1428,COc1cccc2c1nc(Nc3ccc(NC(=O)NCCN)cc3)n2C,CHEMBL203,Epidermal growth factor receptor erbB1,7.30,Ki,=,50.0,nM,1210
+CHEMBL1286,CC(C)c1ccc(cc1)Nc2ncnc3ccc(NC(=O)NC)cc23,CHEMBL2147,Vascular endothelial growth factor receptor 2,7.00,IC50,=,100.0,nM,1356
+CHEMBL303950,CC1=NC(=O)N(C=N1)N2CCN(CC2)C3=NC4=CC=CC=C4N3c5ccc(cc5)Cl,CHEMBL1862,Tyrosine-protein kinase ABL1,8.70,Ki,=,2.0,nM,1130
+CHEMBL467712,CC1=NC(=O)N(C=N1)N2CCN(CC2)C3=NC4=NC=CC=C4N3CC5=CC=CC=C5,CHEMBL240,Tyrosine-protein kinase BTK,7.80,IC50,=,16.0,nM,659
+CHEMBL2108196,CN1CCN(CC1)CCOc2ccc3nc(Nc4ccc(NC(=O)C)cc4)ncc3c2OC,CHEMBL1824,Serine/threonine-protein kinase B-raf,7.10,IC50,=,80.0,nM,766
+CHEMBL1421,CCOc1cc2ncnc(Nc3ccc(OC(F)(F)F)cc3)c2cc1OC,CHEMBL1865,Epidermal growth factor receptor,7.85,IC50,=,14.0,nM,1210
+CHEMBL514916,COc1cc2nc(Nc3ccc(N4CCN(CC4)C)cc3)ncc2c(OC)c1OC,CHEMBL1950,Proto-oncogene c-Fms,7.40,IC50,=,40.0,nM,972
+CHEMBL521803,COc1ccc2ncnc(Nc3ccc(NC(=O)C4CC4)cc3)c2cc1OC,CHEMBL1824,Serine/threonine-protein kinase B-raf,6.95,IC50,=,112.0,nM,766
+CHEMBL1079120,CN1CCN(CC1)CCOc2ccc3nc(Nc4ccc(NC(=O)CO)cc4)ncc3c2OC,CHEMBL2971,Raf proto-oncogene serine/threonine-protein kinase B-raf,7.35,IC50,=,45.0,nM,766
+CHEMBL1076700,CC1=C(NC(=O)N(C1=O)C)N2CCN(CC2)C3=NC4=CC=CC=C4N3c5ccc(cc5)F,CHEMBL3067,Tyrosine-protein kinase SYK,7.50,Ki,=,32.0,nM,635
+CHEMBL189963,COc1cc2nc(Nc3ccc(NC(=O)CO)cc3)ncc2c(OC)c1OC,CHEMBL1957,Tyrosine-protein kinase JAK2,7.25,IC50,=,56.0,nM,1129
+CHEMBL1778439,COc1ccc2nc(Nc3ccc(NC(=O)CO)cc3)ncc2c1OC,CHEMBL1827,Serine/threonine-protein kinase B-raf,7.05,IC50,=,89.0,nM,766
+CHEMBL1908369,CS(=O)(=O)Nc1ccc2nc(Nc3ccc(NC(=O)C4CC4)cc3)ncc2c1,CHEMBL240,Tyrosine-protein kinase BTK,7.45,IC50,=,35.0,nM,659
+CHEMBL362288,CS(=O)(=O)Nc1ccc2nc(Nc3ccc(NC(=O)CO)cc3)ncc2c1,CHEMBL1957,Tyrosine-protein kinase JAK2,7.15,IC50,=,71.0,nM,1129
+CHEMBL1275,COc1ccc2nc(Nc3ccc(NC(=O)CO)cc3)ncc2c1OC,CHEMBL1865,Epidermal growth factor receptor,7.55,IC50,=,28.0,nM,1210
+CHEMBL1540,COc1ccc2nc(Nc3ccc(NC(=O)CO)cc3)ncc2c1OC,CHEMBL364,Receptor tyrosine-protein kinase erbB-2,7.20,IC50,=,63.0,nM,1255

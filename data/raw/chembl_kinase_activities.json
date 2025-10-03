@@ -1,0 +1,16 @@
+{
+  "records": 20,
+  "columns": [
+    "chembl_id",
+    "smiles",
+    "target_id",
+    "target_pref_name",
+    "pchembl_value",
+    "standard_type",
+    "standard_relation",
+    "standard_value",
+    "standard_units",
+    "target_sequence_length"
+  ],
+  "source": "chembl_public_sample"
+}
