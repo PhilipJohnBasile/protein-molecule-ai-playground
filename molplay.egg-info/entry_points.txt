@@ -1,0 +1,3 @@
+[console_scripts]
+molplay-generate = molplay.generate:app
+molplay-train = molplay.train:app

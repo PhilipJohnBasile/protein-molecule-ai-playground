@@ -1,3 +1,25 @@
+Metadata-Version: 2.4
+Name: molplay
+Version: 0.1.0
+Summary: Protein-ligand binding affinity playground with generation demos
+Author: Protein Molecule AI Playground
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: typer>=0.9
+Requires-Dist: pandas>=2.0
+Requires-Dist: numpy>=1.24
+Requires-Dist: scikit-learn>=1.3
+Requires-Dist: torch>=2.1
+Requires-Dist: torch-geometric>=2.4
+Requires-Dist: rdkit-pypi>=2022.9
+Requires-Dist: pyarrow>=13.0
+Requires-Dist: tqdm>=4.66
+Requires-Dist: matplotlib>=3.7
+Requires-Dist: seaborn>=0.13
+Provides-Extra: tests
+Requires-Dist: pytest>=7.4; extra == "tests"
+Requires-Dist: pytest-cov>=4.1; extra == "tests"
+
 # Protein-Ligand Affinity Playground
 
 Lightweight, offline-friendly toolkit for exploring protein–ligand binding affinity prediction and rapid analogue ideation around kinase inhibitors. The repo walks through every stage—from pulling a tiny, free ChEMBL sample to training classical and graph neural models, then generating fragment-based tweaks that satisfy simple property constraints.
@@ -12,14 +34,7 @@ Kinases are high-value drug targets across oncology and immunology. Medicinal ch
 - **Analogue generation**: propose fragment substitutions (BRICS) that retain key motifs while nudging QED/logP and predicted affinity in a useful direction.
 - **Reproducibility**: deterministic seeds, cached datasets, and scripted workflows that run quickly on a laptop.
 
-The project is deliberately small—ideal for experimentation, teaching, or rapid prototyping when full-blown infrastructure is overkill. The end-to-end workflow gives you:
-
-1. A curated mini kinase dataset (`data/clean/train.parquet`) with calculated properties.
-2. Trained baseline + GNN models and their evaluation metrics (`outputs/metrics.json`).
-3. A BRICS-based analogue generator that produces ranked candidates in `outputs/generated.csv`.
-4. Notebooks/CLIs that mirror each stage so you can inspect, tweak, or swap components.
-
-Typical usage: explore the dataset, train models, generate analogues for a seed ligand, and inspect the predicted affinity/physchem trade-offs to decide which variants are worth further analysis.
+The project is deliberately small—ideal for experimentation, teaching, or rapid prototyping when full-blown infrastructure is overkill.
 
 ---
 
@@ -194,8 +209,6 @@ Workflow:
    - `seed_smiles`, `candidate_smiles`, `target_id`
    - `qed`, `logp`, `sa_score`
    - `predicted_pChEMBL`
-Inspect them with `pandas.read_csv('outputs/generated.csv')`.
-If you open `03_generate.ipynb`, the results cell already reads \`outputs/generated.csv\` and displays the table inline.
 
 Example output:
 ```
@@ -205,15 +218,6 @@ COc1ccc2nc(...),COc1ccc(-c2ccc(OC)cc2)cc1,CHEMBL1824,0.7795,3.3708,2.1931,7.5175
 ```
 
 ---
-
-## Interpreting the outputs
-
-- **Dataset (`data/clean/train.parquet`)**: curated kinase ligands with computed QED/logP/SA and target metadata. Explore it to understand chemical diversity and target coverage.
-- **Model artefacts (`outputs/models/`, `outputs/metrics.json`)**: inspect test-set MAE/R² to assess generalisation to new scaffolds; tweak hyperparameters or data if metrics are weak.
-- **Generated analogues (`outputs/generated.csv`)**: each row contains SMILES, QED/logP/SA, and predicted pChEMBL. Compare to the seed molecule to decide which variants balance potency predictions with drug-likeness.
-- **Notebooks**: `01_dataset` (EDA), `02_train` (retrain/experiment), `03_generate` (produce and view analogues).
-
-Use these pieces together: pick a promising seed from the dataset, generate analogues, prioritise hits based on the predicted affinity + property trade-offs, and take shortlisted candidates into downstream simulation or wet-lab planning.
 
 ## Notebooks
 
